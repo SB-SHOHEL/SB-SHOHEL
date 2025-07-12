@@ -1,0 +1,42 @@
+body{
+    margin:0 auto;
+    max-width:1170px;
+}
+section{
+    text-align:center;
+}
+.card-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:200px;
+    border: 2px solid green;
+    border-radius: 15px;
+   padding:10px;
+    box-shadow:10px 10px 10px black;
+    background:peachpuff;
+    margin:0 auto;
+}
+.card:hover{
+    background:peru;
+}
+.card img{
+    width:100%;
+    border-radius:15px;
+}
+.card button{
+    margin:o auto;
+    background:green;
+    color:white;
+    border-radius:5px;
+    font-size:18px;
+
+}
+.card button:hover{
+    background:rgb(96, 53, 46);
+
+}
+
